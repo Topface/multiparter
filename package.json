@@ -1,12 +1,16 @@
 {
     "name": "multiparter",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "multipart/form-data POST request maker for nodejs",
     "keywords": ["multipart/form-data", "multipart", "form-data", "POST"],
     "author": "Ian Babrou <ibobrik@gmail.com>",
     "engines": [
         "node"
     ],
+    "dependencies": {
+        "async": "0.1.15",
+        "underscore": "1.2.1"
+    },
     "repository": {
         "type": "git",
         "url": "git://github.com/Sonetica/multiparter.git"
